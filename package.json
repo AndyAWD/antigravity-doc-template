@@ -1,0 +1,7 @@
+{
+  "name": "antigravity-doc-template",
+  "version": "1.0.0",
+  "description": "Standard documentation template and bilingual generator for Google Antigravity (AGY) plugins.",
+  "author": "Google Antigravity",
+  "license": "MIT"
+}

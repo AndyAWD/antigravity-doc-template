@@ -1,0 +1,10 @@
+{
+  "name": "antigravity-doc-template",
+  "version": "1.0.0",
+  "description": "Standard documentation templates and AI generators for Google Antigravity (AGY) plugins.",
+  "skills": [
+    "skills/agy-doc-readme",
+    "skills/agy-doc-release",
+    "skills/agy-doc-github-pr"
+  ]
+}
