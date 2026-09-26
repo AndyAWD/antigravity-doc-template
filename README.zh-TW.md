@@ -24,25 +24,29 @@ agy plugin install https://github.com/AndyAWD/antigravity-doc-template
 
 ## 如何管理與切換外掛程式
 
-  • 列出已安裝外掛：
-    ```bash
-    agy plugin list
-    ```
+• 列出已安裝外掛：
 
-  • 啟用外掛：
-    ```bash
-    agy plugin enable antigravity-doc-template
-    ```
+  ```bash
+  agy plugin list
+  ```
 
-  • 停用外掛：
-    ```bash
-    agy plugin disable antigravity-doc-template
-    ```
+• 啟用外掛：
 
-  • 移除外掛：
-    ```bash
-    agy plugin uninstall antigravity-doc-template
-    ```
+  ```bash
+  agy plugin enable antigravity-doc-template
+  ```
+
+• 停用外掛：
+
+  ```bash
+  agy plugin disable antigravity-doc-template
+  ```
+
+• 移除外掛：
+
+  ```bash
+  agy plugin uninstall antigravity-doc-template
+  ```
 
 > 在 Antigravity 2.0 左側欄的 **Skills & Customizations** 面板中，亦可即時檢視外掛載入狀態。
 

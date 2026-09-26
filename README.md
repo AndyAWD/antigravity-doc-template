@@ -24,25 +24,29 @@ agy plugin install https://github.com/AndyAWD/antigravity-doc-template
 
 ## Plugin Management
 
-  • List installed plugins:
-    ```bash
-    agy plugin list
-    ```
+• List installed plugins:
 
-  • Enable this plugin:
-    ```bash
-    agy plugin enable antigravity-doc-template
-    ```
+  ```bash
+  agy plugin list
+  ```
 
-  • Disable this plugin:
-    ```bash
-    agy plugin disable antigravity-doc-template
-    ```
+• Enable this plugin:
 
-  • Uninstall this plugin:
-    ```bash
-    agy plugin uninstall antigravity-doc-template
-    ```
+  ```bash
+  agy plugin enable antigravity-doc-template
+  ```
+
+• Disable this plugin:
+
+  ```bash
+  agy plugin disable antigravity-doc-template
+  ```
+
+• Uninstall this plugin:
+
+  ```bash
+  agy plugin uninstall antigravity-doc-template
+  ```
 
 > In Antigravity 2.0, you can also inspect and verify the real-time loading status in the **Skills & Customizations** panel in the left sidebar.
 
