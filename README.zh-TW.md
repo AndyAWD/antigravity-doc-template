@@ -65,7 +65,7 @@ antigravity-doc-template/
 │   ├── PULL_REQUEST_TEMPLATE.en.md
 │   └── PULL_REQUEST_TEMPLATE.bilingual.md
 └── skills/
-    ├── agy-doc-readme/
+    ├── sync-readme/
     │   └── SKILL.md
     ├── agy-doc-release/
     │   └── SKILL.md
@@ -77,17 +77,17 @@ antigravity-doc-template/
 
 安裝完成後，可在任何 AGY 介面透過語意對話或輸入對應的斜線指令（Slash Command）觸發：
 
-### 1. 雙語說明文件生成器（agy-doc-readme）
+### 1. 說明文件智慧同步（sync-readme）
 
 ```text
-/antigravity-doc-template:agy-doc-readme
+/antigravity-doc-template:sync-readme
 ```
 
-- **使用情境**：建立全新 Antigravity 外掛程式、準備發布至 GitHub，或需要自動同步更新既有外掛 README 文件時。
+- **使用情境**：全新建立、增量更新或結構重構專案的雙語說明文件時。
 - **運作流程**：
   1. 檢查目前專案根目錄，解析 `plugin.json`、`package.json` 並偵測 Git 遠端網址。
-  2. 掃描 `skills/` 目錄，提取所有註冊技能名稱、觸發時機、工作流程與參數。
-  3. 嚴格依照雙語模版標準規格產出或更新 `README.md` 與 `README.zh-TW.md`。
+  2. 自動判定執行模式（全新建立、增量更新或結構重構）。
+  3. 掃描 `skills/` 目錄並依標準規格同步產出或更新 `README.md` 與 `README.zh-TW.md`。
 
 ### 2. 雙語 GitHub Release 生成器（agy-doc-release）
 

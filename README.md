@@ -65,7 +65,7 @@ antigravity-doc-template/
 │   ├── PULL_REQUEST_TEMPLATE.en.md
 │   └── PULL_REQUEST_TEMPLATE.bilingual.md
 └── skills/
-    ├── agy-doc-readme/
+    ├── sync-readme/
     │   └── SKILL.md
     ├── agy-doc-release/
     │   └── SKILL.md
@@ -77,17 +77,17 @@ antigravity-doc-template/
 
 Once installed, trigger capabilities using natural language prompts or dedicated slash commands:
 
-### 1. Bilingual README Generator (agy-doc-readme)
+### 1. Bilingual Documentation Sync (sync-readme)
 
 ```text
-/antigravity-doc-template:agy-doc-readme
+/antigravity-doc-template:sync-readme
 ```
 
-- **When to Use**: When creating a new Antigravity plugin, preparing documentation before publishing to GitHub, or updating existing plugin READMEs.
+- **When to Use**: When creating, updating, or refactoring bilingual README files.
 - **How It Works**:
-  1. Inspects the current project root, parses `plugin.json`, `package.json`, and detects the Git remote URL.
-  2. Scans the `skills/` directory to extract all registered skills, triggers, workflows, and parameter options.
-  3. Generates or updates `README.md` and `README.zh-TW.md` in strict adherence to the bilingual template standards.
+  1. Inspects workspace structure, manifests, and `skills/` directory.
+  2. Automatically identifies execution mode (Create, Update, or Refactor).
+  3. Synchronizes symmetric `README.md` (English) and `README.zh-TW.md` (Traditional Chinese) adhering to standard specifications.
 
 ### 2. Bilingual GitHub Release Notes Generator (agy-doc-release)
 
